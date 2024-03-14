@@ -145,6 +145,7 @@ ul {
   background-position: 50% 50%;
   max-width: 1440px;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -337,10 +338,13 @@ ul {
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .portfolio-cover-text {
   transform: translateY(0);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-cover-wrap {
@@ -357,7 +361,7 @@ ul {
   color: #f4f4fd;
   background-color: #4d5ae5;
   height: 100%;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
