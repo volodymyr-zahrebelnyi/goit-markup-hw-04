@@ -39,6 +39,8 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -141,8 +143,8 @@ ul {
     url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  /* background-size: cover; */
-  /* max-width: 1440px; */
+  max-width: 1440px;
+  background-size: cover;
 }
 
 .hero-title {
@@ -173,6 +175,7 @@ ul {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -208,6 +211,10 @@ ul {
 }
 
 .advantages-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
@@ -225,6 +232,13 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+
+.advantages-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team {
