@@ -444,7 +444,7 @@ ul {
 }
 
 .footer-social-wrap {
-  display: flex;
+  display: inline-block;
   align-items: baseline;
 }
 
