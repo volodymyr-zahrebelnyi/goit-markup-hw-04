@@ -301,7 +301,6 @@ ul {
 .team-icon-link-list-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link {
@@ -313,6 +312,7 @@ ul {
   justify-content: center;
   border-radius: 50%;
   margin-top: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link:hover,
@@ -459,13 +459,14 @@ ul {
 
 .footer-icons-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
 .footer-icons-list-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link {
@@ -477,6 +478,7 @@ ul {
   align-items: center;
   justify-content: center;
   margin-top: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link:hover,
