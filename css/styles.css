@@ -291,13 +291,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-/* .team-icon-link-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-} */
-
 .team-icon-link-list {
   display: flex;
   align-items: center;
@@ -412,7 +405,7 @@ ul {
   padding: 100px 0;
 }
 
-.footer-conteiner {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -450,9 +443,10 @@ ul {
   margin-top: 16px;
 }
 
-/* .footer-social-wrap {
-  display: inline-block;
-} */
+.footer-social-wrap {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-social-title {
   font-weight: 500;
@@ -463,35 +457,26 @@ ul {
   margin-bottom: 16px;
 }
 
-/* .footer-icon-link-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-} */
-
 .footer-icons-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 16px;
 }
 
 .footer-icons-list-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
   margin-top: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link:hover,
