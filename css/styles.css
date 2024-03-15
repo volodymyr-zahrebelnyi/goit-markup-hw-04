@@ -418,7 +418,6 @@ ul {
 }
 
 .footer-description {
-  display: inline-block;
   margin-right: 120px;
 }
 
@@ -430,8 +429,6 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo-item {
@@ -450,11 +447,12 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
 
-.footer-social-wrap {
+/* .footer-social-wrap {
   display: inline-block;
-}
+} */
 
 .footer-social-title {
   font-weight: 500;
